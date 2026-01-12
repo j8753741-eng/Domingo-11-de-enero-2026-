@@ -31,14 +31,42 @@
             font-size: 64px;
             text-align: center;
             color: #d9b8ff;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
         }
 
         .fecha {
-            text-align: right;
+            text-align: center;
             font-style: italic;
             color: #c6a8ff;
             margin-bottom: 40px;
+        }
+
+        .musica {
+            margin-bottom: 60px;
+            text-align: center;
+        }
+
+        .musica p {
+            font-style: italic;
+            color: #e0d1ff;
+            margin-bottom: 20px;
+        }
+
+        .video {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 20px;
+            box-shadow: 0 0 30px rgba(199, 125, 255, 0.5);
+        }
+
+        .video iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
         }
 
         p {
@@ -53,36 +81,6 @@
             font-size: 36px;
             color: #e2c6ff;
         }
-
-        .musica {
-            margin-top: 70px;
-            text-align: center;
-            padding: 30px;
-            border-top: 1px solid rgba(255,255,255,0.2);
-        }
-
-        .musica p {
-            font-style: italic;
-            color: #e0d1ff;
-            margin-bottom: 20px;
-        }
-
-        .boton {
-            display: inline-block;
-            padding: 14px 32px;
-            border-radius: 30px;
-            background: linear-gradient(135deg, #8e2de2, #c77dff);
-            color: white;
-            text-decoration: none;
-            font-weight: 600;
-            box-shadow: 0 0 20px rgba(199, 125, 255, 0.6);
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-
-        .boton:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 30px rgba(199, 125, 255, 0.9);
-        }
     </style>
 </head>
 
@@ -96,6 +94,20 @@
             Domingo 11 de enero de 2026 · Noche
         </div>
 
+        <!-- Música arriba del texto -->
+        <div class="musica">
+            <div class="video">
+                <iframe 
+                    src="https://www.youtube.com/embed/4Ja6WLrZlAE?rel=0"
+                    title="Canción de amor"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <!-- Texto de la carta -->
         <p>
             Esta noche de domingo 11 de enero de 2026, cuando el cielo se vuelve más lento y el mundo parece respirar en voz baja, quiero quedarme contigo a través de estas palabras como quien se queda abrazando sin prisa. No escribo para llenar un espacio, escribo porque mi corazón está lleno de ti y necesita desbordarse. Porque amarte no cabe en silencios cortos ni en frases simples; amarte es un viaje profundo que merece tiempo, calma y verdad.
         </p>
@@ -145,35 +157,8 @@
         </p>
 
         <div class="firma">
-            Con todo mi amor
-        </div>
-
-        <div class="musica">
-    <p>Déjala sonar mientras lees esta carta…</p>
-
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 20px; box-shadow: 0 0 30px rgba(199, 125, 255, 0.5);">
-        <iframe 
-            src="https://www.youtube.com/embed/4Ja6WLrZlAE?rel=0"
-            title="Canción de amor"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-        </iframe>
-    </div>
-        </div><div class="musica">
-    <p>Déjala sonar mientras lees esta carta…</p>
-
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 20px; box-shadow: 0 0 30px rgba(199, 125, 255, 0.5);">
-        <iframe 
-            src="https://www.youtube.com/embed/4Ja6WLrZlAE?rel=0"
-            title="Canción de amor"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-        </iframe>
-    </div>
+            Con todo mi amor 
+            JUAN KALETH MENDOZA PRIMERA 
         </div>
 
     </div>
